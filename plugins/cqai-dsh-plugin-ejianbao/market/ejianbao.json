@@ -1,0 +1,24 @@
+{
+  "packageName": "cqai-dsh-plugin-ejianbao",
+  "displayName": "e剪宝",
+  "summary": "统一数字人、短视频与口播视频制作的独立插件套件，内置三个引擎及共享媒体工具。",
+  "description": "## e剪宝\n\ne剪宝将数字人视频、短视频和 TalkCraft 口播视频集中到同一个 DSH 工作区。只需安装根套件，即可获得三个制作引擎、公共画幅和音色设置，以及媒体环境准备入口。\n\n- 数字人、已有口播和动效视频制作。\n- 文案、素材、配音、字幕及短视频制作。\n- TalkCraft 分阶段口播制作与多轨工作台。\n- 共享 Node、uv、Python、FFmpeg 和 ffprobe 准备。\n\n### 安装与兼容\n\n当前版本面向 **Windows x64 / DSH 0.2.0-rc.2**。e宝桌面需包含独立套件 Profile 迁移与嵌套依赖解析更新；旧版桌面和其他系统、架构未验收。只启用 `cqai-dsh-plugin-ejianbao` 根套件，不要再单独启用内置引擎。安装后重启桌面。\n\n套件默认复用宿主 CQAI Club 账号，保留原登录、模型配置、任务和素材。没有账号服务的普通 DSH 需按 README 在当前 Profile 单独配置一次账号。\n\n### 制作环境\n\n安装包包含插件代码，制作前仍需准备各引擎运行环境。Python 依赖、Remotion、浏览器和识别模型可能需要联网下载；云端功能需要登录及对应额度。安装或环境下载成功不代表已完成视频渲染。\n\n### 许可\n\n各模块按各自许可分发。**TalkCraft 使用 PolyForm Noncommercial 1.0.0，商业用途需先取得上游作者授权。** 根 MIT 许可不覆盖第三方条款。完整来源、Required Notice 和许可说明见仓库 `THIRD_PARTY_NOTICES.md`。\n\n[公开安装说明](https://www.npmjs.com/package/cqai-dsh-plugin-ejianbao)",
+  "categories": [
+    "media",
+    "productivity"
+  ],
+  "keywords": [
+    "ejianbao",
+    "video",
+    "short-video",
+    "talkcraft",
+    "digital-human",
+    "ffmpeg"
+  ],
+  "repositoryUrl": "https://github.com/wangpeng668866/ebao-plugins/tree/main/plugins/cqai-dsh-plugin-ejianbao",
+  "homepageUrl": "https://www.npmjs.com/package/cqai-dsh-plugin-ejianbao",
+  "iconUrl": "https://unpkg.com/cqai-dsh-plugin-ejianbao@0.1.0/assets/plugin-icon.png",
+  "compatibilityHosts": [
+    "dsh-desktop"
+  ]
+}

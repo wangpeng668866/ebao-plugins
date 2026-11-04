@@ -1,0 +1,20 @@
+# Activate the suite once. Reuse the Host's existing @cqaiclub/dsn-account service.
+# Hosts without an account configure it once in their Profile user patch; see README.md.
+- insert:
+    - id: cqai-video
+      name: cqai-dsh-plugin-video
+
+- insert:
+    - id: cqai-short-video
+      name: cqai-dsh-plugin-short-video
+      disabled: false
+
+- insert:
+    - id: cqai-talkcraft
+      name: cqai-dsh-plugin-talkcraft
+      disabled: false
+
+- insert:
+    - id: cqai-ejianbao
+      name: cqai-dsh-plugin-ejianbao
+      disabled: false

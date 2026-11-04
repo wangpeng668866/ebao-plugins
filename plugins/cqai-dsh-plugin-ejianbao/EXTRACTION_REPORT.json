@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "67a206fda2fbc61f98aee8b4ddcd3105cd8da6a3",
+  "sourceFiles": 1188,
+  "unchangedFiles": 1175,
+  "adaptedFiles": [
+    "cordis.patch.yml",
+    "package.json",
+    "README.md",
+    "tests/draft-defaults.test.ts",
+    "vitest.config.ts",
+    "packages/cqai-dsh-plugin-video/package.json",
+    "packages/cqai-dsh-plugin-short-video/package.json",
+    "packages/cqai-dsh-plugin-talkcraft/package.json",
+    "packages/cqai-dsh-plugin-talkcraft/scripts/smoke-workbench.mjs",
+    "packages/cqai-dsh-plugin-account/src/index.ts",
+    "packages/cqai-dsh-plugin-media-runtime/tests/python-discovery.test.ts",
+    "packages/cqai-dsh-plugin-short-video/tests/host.test.ts"
+  ],
+  "excludedFiles": [
+    "tests/presentation.test.ts"
+  ]
+}
