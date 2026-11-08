@@ -1,0 +1,3 @@
+- insert:
+    - id: cqai-knowledge-base
+      name: cqai-dsh-plugin-knowledge-base
